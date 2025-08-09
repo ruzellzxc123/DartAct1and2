@@ -25,9 +25,9 @@ double CalculatePerimeter(double width, double height, bool isSquare) {
   double perimeter;
   if (isSquare)
   {
-    perimeter = 2* width + height;
-  } else {
     perimeter = 4 * width;
+  } else {
+    perimeter = 2* width + height;
   }
   return perimeter;
 }
